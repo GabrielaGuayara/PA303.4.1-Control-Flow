@@ -10,7 +10,5 @@ public class ControlFlowThree {
             System.out.println("Betweeb 10 and 20");
         else if (x > 20)
             System.out.println("Greater than or equal to 20");
-        else
-            System.out.println("Invalid entry");
     }
 }

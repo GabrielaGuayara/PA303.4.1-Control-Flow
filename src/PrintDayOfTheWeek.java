@@ -6,39 +6,40 @@ public class PrintDayOfTheWeek {
         System.out.print("Please enter a number between 1 and 7: ");
         Scanner inp = new Scanner(System.in);
 
-        String userInp = inp.nextLine();
+       int userInp = inp.nextInt();
 
         switch(userInp){
-            case "1": {
+            case 1: {
                 System.out.println("It is Monday");
                 break;
             }
-            case "2": {
+            case 2: {
                 System.out.println("It is Tuesday");
                 break;
             }
-            case "3":{
+            case 3:{
                 System.out.println("It is Wednesday");
                 break;
             }
-            case "4":{
+            case 4:{
                 System.out.println("It is Thursday");
                 break;
             }
-            case "5":{
+            case 5:{
                 System.out.println("It is Friday");
                 break;
             }
-            case "6":{
+            case 6:{
                 System.out.println("It is Saturday");
                 break;
             }
-            case "7":{
+            case 7:{
                 System.out.println("It is Sunday");
                 break;
             }
             default:
                 System.out.println("Out of range");
+                break;
         }
 
     }

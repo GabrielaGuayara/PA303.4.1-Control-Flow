@@ -5,12 +5,10 @@ public class ControlFlowFour {
 
         x = 5;
 
-        if(x < 10 | x > 20)
-            System.out.println("Out of range");
-        else if(x>= 10 && x <=20)
+        if(x >=10 && x <= 20)
             System.out.println("In range");
         else
-            System.out.println("Invalid entry");
+            System.out.println("Out of range");
 
     }
 }
